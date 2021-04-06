@@ -3,6 +3,8 @@ const express = require('express');
 const app = express();
 const {axiosSetup} = require('./axiosConfig');
 const searchRoute = require('./routes/searchRoutes');
+const initialRoute = require('./routes/initialRoute');
+
 
 
 axiosSetup();
@@ -22,6 +24,7 @@ app.use((req, res, next) => {
 });
 
 app.use('/everything', searchRoute);
+app.use('/top-headlines', initialRoute);
 
 app.get('/', (req, res)=>{
     res.send("Welcome to new API");
