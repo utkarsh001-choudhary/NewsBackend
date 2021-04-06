@@ -4,7 +4,7 @@
   "description": "A rest api to fetch news from News API",
   "main": "app.js",
   "scripts": {
-    "start":"nodemon app",
+    "start": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,7 +14,9 @@
   "author": "Sumit Maurya",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1"
   }
 }
