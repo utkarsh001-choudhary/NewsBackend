@@ -1,4 +1,4 @@
-### Backend service for news api
+# Backend service for news api
 
 ## Endpoints exposed 
 
@@ -14,17 +14,17 @@
                     fixed param country with value gb passed
         rout called on initial load
 
-## to run the application 
- 1. npm init 
- 2. Add .env file with following content
-        PORT=3002
-        API_KEY=_____ YOUR API KEY _______
-        BASE_URL=https://newsapi.org/v2
-        ENDPOINT_EVERY = everything
-        ENDPOINT_INIT = top-headlines
- 3. run npm start
+## To run the application 
+     1. npm init 
+     2. Add .env file with following content
+            PORT=3002
+            API_KEY=_____ YOUR API KEY _______
+            BASE_URL=https://newsapi.org/v2
+            ENDPOINT_EVERY = everything
+            ENDPOINT_INIT = top-headlines
+     3. run npm start
 
-## folder Structure of repo 
+## Folder Structure of repo 
 
 this repo contains app.js as entry point
 than a routes folder containing all the routes
