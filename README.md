@@ -1,4 +1,4 @@
-# Backend service for news api
+# Backend service for UK NEWS APP
 
 ## Endpoints exposed 
 
