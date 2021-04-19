@@ -19,5 +19,14 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "qs": "^6.10.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utkarsh001-choudhary/NewsBackend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/utkarsh001-choudhary/NewsBackend/issues"
+  },
+  "homepage": "https://github.com/utkarsh001-choudhary/NewsBackend#readme"
 }
